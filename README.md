@@ -129,7 +129,7 @@ a ： 标识符
 2、此外还支持Debug调试（后台具备能力，WEB后台没加）、日志获取等。  
 3、参考VS Code后，我新设计的配置后台原型个人认为更加合理。
 
-![IMG](https://github.com/bossfriday/all-in-one/blob/main/img/3.PNG?raw=true)  
+![IMG](https://github.com/bossfriday/all-in-one/blob/main/img/3.png?raw=true)  
 
 * **客户端逻辑植入（当前未实现）**   
 1、 基于对脚本引擎的介绍大家可以知道整个运行机制其实就是执行四元式数组，那么只要实现安卓、OC、WEB的执行器后就可以做到服务端定义客户端逻辑后下发给客户端去执行。那么终极的效果可以做到：客户端UI稳定之后，客户端逻辑变更将不再需要客户端发版（客户端发出去的版就是泼出去的水，就问你微信让你强制升级你恼火不？）。  
